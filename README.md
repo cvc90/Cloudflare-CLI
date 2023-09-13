@@ -218,4 +218,11 @@ Usage: cloudflare check zone <zone>
 
 Support me to improve cloudflare-cli
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KAXRPGK8YBRVG"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" /></a>
+Feel free to donate whatever you want to the following addresses:
+
+- Bitcoin (BTC): `1BughfdxS2zpqZUhtS5jhkbxDWHhtqTaxN`
+- Ethereum (ETH): `0xbE3A0FcD3f1BB61CCeEC94Ab9FE683E071331E00`
+- Dash: `XjZgQAeVuLcfywDpp2JxfmpvQn3MrmAEC2`
+- Zcash (ZEC): `t1J5dnHVeaWvdv3L43A62fVC6YAajKFEMbX`
+- XMR: `47HLtavHyu2UgXVb4apyNnE55mqQTuy1fgPzbNYosqaRak7nkksoqj9enP4eMjBems4kM577T8yRZagnsyB5yrXP32cBN3F`
+- RTM: `RWRYFXpXwrWnWFzPSrp4oyCV6QYaWD3eqX`
