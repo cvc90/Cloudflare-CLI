@@ -1,12 +1,24 @@
 #!/bin/bash
-# -- A simple script to search for domains in your Cloudflare account
-# -- Requires jq (https://stedolan.github.io/jq/)
-# -- Usage: ./domain-search.sh <domain>
-# -- Example: ./domain-search.sh example.com or ./domain-search.sh -f domains.txt
+
+###############################################################################
+#                               Cloudflare-CLI                                #
+#                  https://github.com/cvc90/Cloudflare-CLI/                   #
+#                                                                             #
+#   CLI utility that manages Cloudflare services through the Cloudflare API   #
+#                                                                             #
+#    		           Script file Cloudflare-CLI-Domain-Search.sh	              #
+#      A simple script to search for domains in your Cloudflare account       #
+#                                                                             #
+#         ** Requires jq (https://stedolan.github.io/jq/) **                  #
+#                                                                             #
+#          Usage: ./Cloudflare-CLI-Domain-Search.sh <domain>                  #
+#          Examples: ./Cloudflare-CLI-Domain-Search.sh example.com            # 
+#                    ./Cloudflare-CLI-Domain-Search.sh -f domains.txt         #
+###############################################################################
 
 # -- Variables
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )" # -- Get current script directory
-CACHE_FILE="$HOME/.cf-domain-search.cache"
+CACHE_FILE="$HOME/.Cloudflare-CLI-Domain-Search.cache"
 
 # -- Check if jq is installed
 if ! [ -x "$(command -v jq)" ]; then
@@ -17,9 +29,9 @@ fi
 # -- usage
 usage() {
     USAGE=\
-"Usage: ./domain-search.sh (-f file.txt|<domain>) [-h] [-t] [-d]
+"Usage: ./Cloudflare-CLI-Domain-Search.sh (-f file.txt|<domain>) [-h] [-t] [-d]
 
-    Example: ./domain-search.sh example.com or ./domain-search.sh -f domains.txt
+    Example: ./Cloudflare-CLI-Domain-Search.sh example.com or ./Cloudflare-CLI-Domain-Search.sh -f domains.txt
 
     Options
         -h, --help      Display this help and exit
@@ -114,8 +126,8 @@ else
                 echo "-- Cache file is older than an hour, deleting cache file and pulling in fresh cache"
                 rm $CACHE_FILE
                 CF_DOMAINS=$($SCRIPT_DIR/cloudflare list zones | awk '{print $1}')
-                echo "-- Caching domains to $HOME/.cf-domain-search.cache"
-                echo "$CF_DOMAINS" > $HOME/.cf-domain-search.cache
+                echo "-- Caching domains to $HOME/.Cloudflare-CLI-Domain-Search.cache"
+                echo "$CF_DOMAINS" > $HOME/.Cloudflare-CLI-Domain-Search.cache
             else
                 echo "-- Cache file is not older than an hour, using cache file"
                 CF_DOMAINS=$(cat $CACHE_FILE)
@@ -123,8 +135,8 @@ else
         else
             echo "-- Cache file does not exist, pulling in fresh cache"
             CF_DOMAINS=$($SCRIPT_DIR/cloudflare list zones | awk '{print $1}')
-            echo "-- Caching domains to $HOME/.cf-domain-search.cache"
-            echo "$CF_DOMAINS" > $HOME/.cf-domain-search.cache
+            echo "-- Caching domains to $HOME/.Cloudflare-CLI-Domain-Search.cache"
+            echo "$CF_DOMAINS" > $HOME/.Cloudflare-CLI-Domain-Search.cache
         fi
     else
         echo "-- Grabbing domains from Cloudflare API"
