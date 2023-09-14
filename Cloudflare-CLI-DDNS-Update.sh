@@ -7,6 +7,9 @@
 #   CLI utility that manages Cloudflare services through the Cloudflare API   #
 #                                                                             #
 #    		 Script file Cloudflare-CLI-DDNS-Update.sh 		      #
+#   A script to update Dynamic DDNS for domains in your Cloudflare account    #
+#                                                                             #
+#          Usage: ./Cloudflare-CLI-DDNS-Update.sh <domain>	              #
 ###############################################################################
 
 conffile=/etc/Cloudflare-CLI-DDNS-Update.conf
