@@ -17,18 +17,6 @@ Welcome to the documentation section, here you will find all the necessary docum
 
 - [Debugging tips](/docs/DEBUG_TIPS.md)
 
-#### ♻ Misc
-
-- [Version history (legacy)](/docs/VERSIONS_HISTORY.md)
-- [Reverse proxy (Nginx, Apache, SWAG)](/docs/REVERSE_PROXY.md)
-
-#### 👩‍💻For Developers👨‍💻
-
-- [APP code structure](/docs/README.md)
-- [Frontend development tips](/docs/FRONTEND_DEVELOPMENT.md)
-
-Feel free to suggest or submit new docs via a PR. 
-
 ## 👨‍💻 Development priorities
 
 Priorities from highest to lowest:
