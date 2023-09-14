@@ -205,8 +205,8 @@ Usage: Cloudflare check zone <zone>
 
 ## 📚 Documentación
 
-- Configuración inicial de Docker: [Docker instructions](https://github.com/cvc90/Cloudflare-CLI/blob/main/dockerfiles/README.md)
-- Uso y configuración de la aplicación: [All Documentation](https://github.com/cvc90/Cloudflare-CLI/blob/main/docs/README.md)
+- Configuración inicial de Docker: [Instrucciones Docker](/docs/DOCKER_INSTALLATION.md)
+- Uso y configuración de la aplicación: [Toda la documentación](/docs/README.md)
 
 ## 📑 Requerimientos mínimos del sistema
 
