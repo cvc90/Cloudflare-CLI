@@ -84,4 +84,4 @@ PURGE_URLS: '["https://jarv.is/style.css", "https://jarv.is/favicon.ico"]'
 
 ## License
 
-This project is distributed under the [MIT license](LICENSE.md).
+This project is distributed under the [GNU General Public License v3.0](LICENSE.md).
