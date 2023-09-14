@@ -1,0 +1,9 @@
+name: "Cloudflare CLI"
+description: "CLI utility managing CloudFlare API services"
+author: cvc90
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  color: orange
+  icon: trash-2
