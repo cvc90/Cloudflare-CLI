@@ -6,13 +6,13 @@
 #                                                                             #
 #   CLI utility that manages Cloudflare services through the Cloudflare API   #
 #                                                                             #
-#    		           Script file Cloudflare-CLI-Domain-Search.sh	              #
+#                      Script file Cloudflare-CLI-Domain-Search.sh            #
 #      A simple script to search for domains in your Cloudflare account       #
 #                                                                             #
 #         ** Requires jq (https://stedolan.github.io/jq/) **                  #
 #                                                                             #
 #          Usage: ./Cloudflare-CLI-Domain-Search.sh <domain>                  #
-#          Examples: ./Cloudflare-CLI-Domain-Search.sh example.com            # 
+#          Examples: ./Cloudflare-CLI-Domain-Search.sh example.com            #
 #                    ./Cloudflare-CLI-Domain-Search.sh -f domains.txt         #
 ###############################################################################
 
