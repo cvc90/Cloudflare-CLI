@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+###############################################################################
+#                               Cloudflare-CLI                                #
+#                  https://github.com/cvc90/Cloudflare-CLI/                   #
+#                                                                             #
+#   CLI utility that manages Cloudflare services through the Cloudflare API   #
+#                                                                             #
+#                                                                             #   
+#     This is an example config file for Cloudflare-CLI-DDNS-Update.sh        #
+###############################################################################
+
 conffile=/etc/Cloudflare-CLI-DDNS-Update.conf
 [ -n "$1" ] && conffile=$1
 set -e
@@ -79,9 +89,9 @@ fi
 echo "Record current IP: $currentip" >&2
 if [ "$latestip" != "$currentip" ]
 then
-	if type cfddnsupdate-callback >/dev/null 2>&1
+	if type Cloudflare-CLI-DDNS-Update-callback >/dev/null 2>&1
 	then
-		cfddnsupdate-callback "$latestip" "$lastchange" "$currentip"
+		Cloudflare-CLI-DDNS-Update-callback "$latestip" "$lastchange" "$currentip"
 	fi
 	lastchange=$tstamp
 	if [ -n "$subdom" ]
