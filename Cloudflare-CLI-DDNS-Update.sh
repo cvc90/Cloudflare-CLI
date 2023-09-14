@@ -6,8 +6,7 @@
 #                                                                             #
 #   CLI utility that manages Cloudflare services through the Cloudflare API   #
 #                                                                             #
-#                                                                             #   
-#     This is an example config file for Cloudflare-CLI-DDNS-Update.sh        #
+#    		 Script file Cloudflare-CLI-DDNS-Update.sh 		      #
 ###############################################################################
 
 conffile=/etc/Cloudflare-CLI-DDNS-Update.conf
