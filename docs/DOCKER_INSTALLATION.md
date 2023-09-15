@@ -1,4 +1,4 @@
-# Docker installation
+# 🐳 Docker installation
 
 ## 📥 Installation
 
