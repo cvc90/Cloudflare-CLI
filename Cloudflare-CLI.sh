@@ -1,8 +1,16 @@
 #!/usr/bin/env bash
 
-# ---
-# cloudflare-cli v1.0.1
-# ---
+###############################################################################
+#                               Cloudflare-CLI                                #
+#                  https://github.com/cvc90/Cloudflare-CLI/                   #
+#                                                                             #
+#   CLI utility that manages Cloudflare services through the Cloudflare API   #
+#                                                                             #
+#                	 Script file Cloudflare-CLI.sh		              #
+#    A script that manages Cloudflare services through the Cloudflare API     #
+#                                                                             #
+#	                 Usage: ./Cloudflare-CLI.sh 		              #
+###############################################################################
 
 # -------------------------------------------------- #
 # -- Variables
