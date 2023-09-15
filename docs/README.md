@@ -5,11 +5,11 @@ Welcome to the documentation section, here you will find all the necessary docum
 ## 🏴 Translations of this file
 
 * <a href="README_ES.md">
-   <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/es.svg" alt="README_ES.md" style="height: 20px !important;width: 20px !important;"> Spanish (Spain)
+   <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/es.svg" alt="README_ES.md" style="height: 20px !important;width: 20px !important;"> Spanish
   </a> 
 
 * <a href="README_DE.md">
-   <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/de.svg" alt="README_DE.md" style="height: 20px !important;width: 20px !important;"> German (Germany)
+   <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/de.svg" alt="README_DE.md" style="height: 20px !important;width: 20px !important;"> German
   </a> 
 
 ## 📚 Table of contents
@@ -21,7 +21,7 @@ Welcome to the documentation section, here you will find all the necessary docum
 
 ### 📥 Configuration
 
-- [Script Purge Cloudflare Cache](/docs/Purge-Cloudflare-Cache.md)
+- [Script Purge Cloudflare Cache](/docs/PURGE-CLOUDFLARE-CACHE.md)
 
 ### 🐛 Debugging help & tips
 
