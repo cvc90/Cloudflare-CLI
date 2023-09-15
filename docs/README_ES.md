@@ -21,7 +21,7 @@ Bienvenido a la sección de documentación, aquí encontrará toda la documentac
 
 ### 📥 Configuración
 
-- [Script Purga Caché de Cloudflare](/docs/Purge-Cloudflare-Cache.md)
+- [Script Purga Caché de Cloudflare](/docs/PURGE-CLOUDFLARE-CACHE.md)
 
 ### 🐛 Ayuda y consejos de depuración
 
