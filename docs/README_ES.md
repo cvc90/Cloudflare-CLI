@@ -67,7 +67,7 @@ Si envía un PR, por favor:
 
 Antes de enviar un nuevo número, dedique un par de minutos a investigar:
 
-* Comprobar [🛑 Problemas comunes](/docs/dockerfiles#-common-issues) 
+* Comprobar [🛑 Problemas comunes](/docs/COMMON-ISSUES.md) 
 * Comprobar [💡 Incidencias cerradas](https://github.com/cvc90/Cloudflare-CLI/issues?q=is%3Aissue+is%3Aclosed) si se resolvió un problema similar en el pasado.
 * Cuando envíe una incidencia ❗[enable debug](/docs/DEBUG_TIPS.md)❗
 
