@@ -1,5 +1,9 @@
 # Cloudflare-CLI
 
+<a href="#" style="text-align: center;">
+ <img src="https://github.com/cvc90/Cloudflare-CLI/assets/76731844/30f9e3f8-b73b-4fc4-a5bc-d6859c931272" width="15%" height="15%" alt="Cloudflare-CLI" text-align="center" margin="0 0 0 0">
+</a>
+
 ## 📑 Description
 
 CLI utility that manages Cloudflare services through the Cloudflare API
