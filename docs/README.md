@@ -1,19 +1,29 @@
-## Documentation overview
+# 📚 Documentation overview
 
 Welcome to the documentation section, here you will find all the necessary documentation.
 
-### 📚 Table of contents
+## 🏴 Translations of this file
 
-#### 📥 Installation
+* <a href="README_ES.md">
+   <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/es.svg" alt="README_ES.md" style="height: 20px !important;width: 20px !important;"> Spanish (Spain)
+  </a> 
+
+* <a href="README_DE.md">
+   <img src="https://github.com/lipis/flag-icons/blob/main/flags/4x3/de.svg" alt="README_DE.md" style="height: 20px !important;width: 20px !important;"> German (Germany)
+  </a> 
+
+## 📚 Table of contents
+
+### 📥 Installation
 
 - [Direct installation](/docs/DIRECT_INSTALLATION.md)
 - [Docker container](/docs/DOCKER_INSTALLATION.md)
 
-#### 📥 Configuration
+### 📥 Configuration
 
 - [Script Purge Cloudflare Cache](/docs/Purge-Cloudflare-Cache.md)
 
-#### 🐛 Debugging help & tips
+### 🐛 Debugging help & tips
 
 - [Debugging tips](/docs/DEBUG_TIPS.md)
 
