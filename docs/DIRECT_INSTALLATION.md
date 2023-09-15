@@ -1,4 +1,4 @@
-# Docker installation
+# 🖥️ Direct installation
 
 ## 📥 Installation
 
