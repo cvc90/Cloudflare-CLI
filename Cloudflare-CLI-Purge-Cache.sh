@@ -17,9 +17,10 @@ set -e
 ######## Required/Optional inputs. ########
 
 CLOUDFLARE_ZONE="your_ZONE"
-CLOUDFLARE_TOKEN="your_token"
-CLOUDFLARE_EMAIL="your_email"
+CLOUDFLARE_TOKEN="your_TOKEN"
+CLOUDFLARE_EMAIL="your_EMAIL"
 CLOUDFLARE_KEY="your_KEY"
+#PURGE_URLS='["https://domain.com/style.css", "https://domain.com/favicon.ico"]'
 
 ######## Check for required/optional inputs. ########
 
