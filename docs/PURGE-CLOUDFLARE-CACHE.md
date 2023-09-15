@@ -45,7 +45,7 @@ This is the "traditional" method of authenticating — simply grab your "Global 
 To purge only specific files, you can pass an array of **fully qualified URLs** via a fourth environment variable named `PURGE_URLS`. Unfortunately, Cloudflare doesn't support wildcards (unless you're on the insanely expensive Enterprise plan) so in order to purge a folder, you'd need to list every file in that folder. It's probably safer to leave this out and purge everything, but in case you want really to, the syntax is as follows:
 
 ```yaml
-PURGE_URLS: '["https://domain.com/style.css", "https://domain.com/favicon.ico"]'
+PURGE_URLS='["https://domain.com/style.css", "https://domain.com/favicon.ico"]'
 ```
 
 ## 📑 License
