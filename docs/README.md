@@ -67,7 +67,7 @@ If you submit a PR please:
 
 Before submitting a new issue please spend a couple of minutes on research:
 
-* Check [🛑 Common issues](/docs/dockerfiles#-common-issues) 
+* Check [🛑 Common issues](/docs/COMMON-ISSUES.md) 
 * Check [💡 Closed issues](https://github.com/cvc90/Cloudflare-CLI/issues?q=is%3Aissue+is%3Aclosed) if a similar issue was solved in the past.
 * When submitting an issue ❗[enable debug](/docs/DEBUG_TIPS.md)❗
 
