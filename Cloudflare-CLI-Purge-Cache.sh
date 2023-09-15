@@ -1,6 +1,25 @@
 #!/bin/sh
 
+###############################################################################
+#                               Cloudflare-CLI                                #
+#                  https://github.com/cvc90/Cloudflare-CLI/                   #
+#                                                                             #
+#   CLI utility that manages Cloudflare services through the Cloudflare API   #
+#                                                                             #
+#                 Script file Cloudflare-CLI-Purge-Cache.sh                   #
+#    A simple script to purge your domain cache in your Cloudflare account    #
+#                                                                             #
+#                  Usage: ./Cloudflare-CLI-Purge-Cache.sh                     #
+###############################################################################
+
 set -e
+
+######## Required/Optional inputs. ########
+
+CLOUDFLARE_ZONE="your_ZONE"
+CLOUDFLARE_TOKEN="your_token"
+CLOUDFLARE_EMAIL="your_email"
+CLOUDFLARE_KEY="your_KEY"
 
 ######## Check for required/optional inputs. ########
 
